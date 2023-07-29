@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "path": "/",
+      "windowMs": 60000,
+      "max": 5,
+      "queue": true
+    },
+    {
+      "path": "/api",
+      "windowMs": 600000,
+      "max": 50,
+      "queue": false
+    }
+  ]
+}
